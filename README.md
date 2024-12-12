@@ -2,6 +2,9 @@
 
 This project is a Site Connectivity Checker that provide users the ability to check the connectivity status of websites by pinging them or parsing their URLs. A demo of the video can be watched at [Youtube](https://www.youtube.com/watch?v=j-iIdt9iBcY)
 
+The project has been developed as the final project assignment for CS50P course
+01.12-22
+
 ## Features
 
 - Ping a website to check its connectivity.
