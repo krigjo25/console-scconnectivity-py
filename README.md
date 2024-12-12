@@ -1,8 +1,10 @@
 # SC Connectivity
 
-This project is a Site Connectivity Checker that provide users the ability to check the connectivity status of websites by pinging them or parsing their URLs. A demo of the video can be watched at [Youtube](https://www.youtube.com/watch?v=j-iIdt9iBcY)
+This project is a Site Connectivity Checker that provide users the ability to check the connectivity status of websites by pinging them or parsing their URLs.
 
 The project has been developed as the final project assignment for CS50P course
+Please be aware, and respect the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/).
+A demo for the console application can be watched at [Youtube](https://www.youtube.com/watch?v=j-iIdt9iBcY)
 01.12-22
 
 ## Features
@@ -15,7 +17,7 @@ The project has been developed as the final project assignment for CS50P course
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/console-scconnectivity-py.git
+    git clone https://github.com/krigjo25/console-scconnectivity-py.git
     ```
 2. Navigate to the project directory:
     ```sh
