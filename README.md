@@ -73,7 +73,7 @@ This project is licensed under [The Unlicense](./LICENCE).
 ## Notes from the developer
 Created with love, for python programming,
 
-Thanks for reading, and have a blessed day,
+Thanks for reading, and have a blessed day,<br>
 @krigjo25
 
 
