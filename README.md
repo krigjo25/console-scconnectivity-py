@@ -1,35 +1,62 @@
 # SC Connectivity
 
-##  Overview
-This program has functions to check wheter a webpage is up and running or not
-The program was created at 01.12-22 as a final project for cs50p course.
-[SCConnectivity](https://www.youtube.com/watch?v=j-iIdt9iBcY)
+This project is a Site Connectivity Checker that provide users the ability to check the connectivity status of websites by pinging them or parsing their URLs. A demo of the video can be watched at [Youtube](https://www.youtube.com/watch?v=j-iIdt9iBcY)
 
-##  Description
-The Website Connectivity tool provides a few options through the command-line interface.
-By default, the application will run the connectivity checks synchronosuly. In other words the app performs the checks one after another. The behavior can not be changed in this version.
+## Features
 
-###  How to
-Below is a guide on how to use the prorgam.
+- Ping a website to check its connectivity.
+- Parse URLs to check their validity.
+- Command line interface for easy usage.
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/console-scconnectivity-py.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd console-scconnectivity-py
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To use the Site Connectivity Checker, run the following command:
+
 ```sh
-python  app.py -h or --help                     # To view the help page
-python  app.py -info or --information           # To show information about the program
-python  app.py -u [arg,arg]or --urls[arg,arg]   # Provides the user one or more target URLS 
-python  app.py -p or --ping                     # Ping one or more target URLs
-
+python project.py [options]
 ```
 
-- `-u` or `--urls` allows the user to provide one or more target URLs at the command line or supply a file containing a list of URLs to check.
-- `-p` or `--ping` allows the user to ping a webpage or multiple webpages or a file containing webpages.
-- `-help` or `--help` to view the help page.
-- `-info` or `--information` allows the user to view the program's information.
+### Options
 
+- `-p`, `--ping`: Ping a website.
+- `-u`, `--urls`: URLs to check.
+- `-info`, `--information`: Display information about the program.
 
-## Credits
+Example:
+
+```sh
+python project.py -p google.com
+python project.py -u google.com www.pypi.org
+```
+
+## Running Tests
+
+To run the tests, use the following command:
+
+```sh
+pytest test_project.py
+```
 
 ##  Notes from the developer
 
-Project developed with love for python by @kigjo25<br>
+Developed with love by @kigjo25<br>
+
+## Credits
 
 ###  Libraries used
 
@@ -38,8 +65,9 @@ Project developed with love for python by @kigjo25<br>
 #### [requests      - by  Kenneth Reitz](https://requests.readthedocs.io/en/latest/)
 #### [sys           - by the python developer team](https://docs.python.org/3/library/sys.html)
 
-## Licence
-See LICENCE file for more details
 
-Thanks for reading, In gloria excelsius deo
-@krigjo25
+## License
+
+This project is licensed under [The Unlicense](./LICENCE).
+For more information, please refer to <https://unlicense.org>.
+
