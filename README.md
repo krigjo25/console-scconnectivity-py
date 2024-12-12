@@ -49,17 +49,13 @@ python project.py -p google.com
 python project.py -u google.com www.pypi.org
 ```
 
-## Running Tests
+## Tests
 
 To run the tests, use the following command:
 
 ```sh
 pytest test_project.py
 ```
-
-##  Notes from the developer
-
-Developed with love by @kigjo25<br>
 
 ## Credits
 
@@ -74,5 +70,11 @@ Developed with love by @kigjo25<br>
 ## License
 
 This project is licensed under [The Unlicense](./LICENCE).
-For more information, please refer to <https://unlicense.org>.
+
+## Notes from the developer
+Created with love, for python programming,
+
+Thanks for reading, and have a blessed day,
+@krigjo25
+
 
