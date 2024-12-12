@@ -64,7 +64,6 @@ pytest test_project.py
 #### [argparse      - by Thomas Waldmann](https://pypi.org/project/argparse/)
 #### [pythonping    - by Alessandro Maggio](https://pypi.org/project/pythonping/)
 #### [requests      - by  Kenneth Reitz](https://requests.readthedocs.io/en/latest/)
-#### [sys           - by the python developer team](https://docs.python.org/3/library/sys.html)
 
 
 ## License
