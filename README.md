@@ -1,5 +1,4 @@
 # SC Connectivity
-
 This project is a Site Connectivity Checker that provide users the ability to check the connectivity status of websites by pinging them or parsing their URLs.
 
 The project has been developed as the final project assignment for CS50P course
@@ -8,13 +7,11 @@ A demo for the console application can be watched at [Youtube](https://www.youtu
 01.12-22
 
 ## Features
-
 - Ping a website to check its connectivity.
 - Parse URLs to check their validity.
 - Command line interface for easy usage.
 
 ## Installation
-
 1. Clone the repository:
     ```sh
     git clone https://github.com/krigjo25/console-scconnectivity-py.git
@@ -29,7 +26,6 @@ A demo for the console application can be watched at [Youtube](https://www.youtu
     ```
 
 ## Usage
-
 To use the Site Connectivity Checker, run the following command:
 
 ```sh
@@ -37,13 +33,11 @@ python project.py [options]
 ```
 
 ### Options
-
 - `-p`, `--ping`: Ping a website.
 - `-u`, `--urls`: URLs to check.
 - `-info`, `--information`: Display information about the program.
 
 Example:
-
 ```sh
 python project.py -p google.com
 python project.py -u google.com www.pypi.org
@@ -60,14 +54,12 @@ pytest test_project.py
 ## Credits
 
 ###  Libraries used
-
 #### [argparse      - by Thomas Waldmann](https://pypi.org/project/argparse/)
 #### [pythonping    - by Alessandro Maggio](https://pypi.org/project/pythonping/)
 #### [requests      - by  Kenneth Reitz](https://requests.readthedocs.io/en/latest/)
 
 
 ## License
-
 This project is licensed under [The Unlicense](./LICENCE).
 
 ## Notes from the developer
