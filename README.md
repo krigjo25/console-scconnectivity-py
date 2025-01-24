@@ -3,8 +3,7 @@ This project is a Site Connectivity Checker that provide users the ability to ch
 
 The project has been developed as the final project assignment for CS50P course
 Please be aware, and respect the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/).
-A demo for the console application can be watched at [Youtube](https://www.youtube.com/watch?v=j-iIdt9iBcY)
-01.12-22
+A demo for the console application can be watched at [Youtube : SC Connectivity](https://www.youtube.com/watch?v=j-iIdt9iBcY)
 
 ## Features
 - Ping a website to check its connectivity.
@@ -13,17 +12,31 @@ A demo for the console application can be watched at [Youtube](https://www.youtu
 
 ## Installation
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/krigjo25/console-scconnectivity-py.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd console-scconnectivity-py
-    ```
-3. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+```sh
+# Using SSh 
+ssh git@github.com:krigjo25/console-scconnectivity-py.git
+
+# Using git bash
+git clone https://github.com/krigjo25/console-scconnectivity-py.git
+
+# Using Github Cli
+gh repo clone console-scconnectivity-py
+```
+
+2. Navigate to the project directory
+```sh
+cd console-scconnectivity-py
+```
+
+3. Install the requirements
+```sh
+pip install -r requirements.txt
+```
+
+4. Run the file
+```sh
+python app.py
+```
 
 ## Usage
 To use the Site Connectivity Checker, run the following command:
@@ -39,17 +52,23 @@ python project.py [options]
 
 Example:
 ```sh
-python project.py -p google.com
-python project.py -u google.com www.pypi.org
+python project.py -p <google.com>
+python project.py -u <google.com www.pypi.org>
 ```
+Change the `<google.com>` or `<google.com www.pypi.org>` with desired webpage, and run the program.
 
 ## Tests
-
 To run the tests, use the following command:
 
 ```sh
-pytest test_project.py
+USEAGE : Type in your terminal pytest <strong>testing/</strong> In order to test the whole dictionary
+
+USEAGE : Type in your terminal pytest <strong>test_intgame -s</strong> to see a more detailed test.
+
+USEAGE : Type in your terminal pytest <strong>test_intgame -k "classname"</strong>, in order to test the classes
+USEAGE : Type in your terminal pytest <strong>pytest --html=report.htm</strong>
 ```
+
 
 ## Credits
 
